@@ -1,0 +1,23 @@
+<div class="register-container">
+  <div class="register-card">
+    <h1>Registro</h1>
+    <form (submit)="registrarUsuario()">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" #nombre placeholder="Tu nombre completo" required />
+      </div>
+
+      <div class="form-group">
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" #correo placeholder="correo@ejemplo.com" required />
+      </div>
+
+      <div class="form-group">
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" #telefono placeholder="+1234567890" required />
+      </div>
+
+      <button type="submit" class="btn-register">Registrarse</button>
+    </form>
+  </div>
+</div>

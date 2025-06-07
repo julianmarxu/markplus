@@ -1,0 +1,11 @@
+<div class="profile-container">
+  <h1>Perfil de Usuario</h1>
+
+  <div class="profile-info">
+    <p><strong>Nombre:</strong> {{ usuario.nombre }}</p>
+    <p><strong>Correo:</strong> {{ usuario.correo }}</p>
+    <p><strong>Teléfono:</strong> {{ usuario.telefono }}</p>
+  </div>
+
+  <button (click)="editarPerfil()">Editar Perfil</button>
+</div>

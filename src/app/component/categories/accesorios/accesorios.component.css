@@ -1,0 +1,33 @@
+.accesorios-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.accesorios-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.accesorio-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.accesorio-card:hover {
+  transform: scale(1.02);
+}
+
+.accesorio-card h2 {
+  margin-top: 0;
+  color: #007BFF;
+}
+
+.accesorio-card p {
+  color: #555;
+}

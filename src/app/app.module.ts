@@ -7,10 +7,9 @@ import { LoginComponent } from './component/login/login.component';
 import { ProfileComponent } from './component/profile/profile.component';
 import { RegisterComponent } from './component/register/register.component';
 
-export const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' }, // Redirige a login si no hay ruta especificada
-  { path: 'login', component: LoginComponent },
-  { path: 'register', loadComponent:() => RegisterComponent },
+export const appRoutes: Routes = [
+  { path: '', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'chat', component: ChatComponent },
   { path: 'ropa', component: RopaComponent },
